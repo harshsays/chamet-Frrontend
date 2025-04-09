@@ -1,0 +1,81 @@
+:root {
+  --main-color: #69db34b8;
+  --text-color: #222;
+  --font-size: 18px;
+  --blue-color:rgb(0, 0, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-container{
+  height: 100vh;
+  width: 100vw;
+}
+
+#header{
+  background: linear-gradient(to right,rgba(255, 0, 0, 0.58),rgba(0, 0, 255, 0.712));
+  height: 10%;
+  width: 100%;
+  box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.2);
+}
+
+#body{
+  background: linear-gradient(to right,rgba(21, 255, 0, 0.457),rgba(255, 0, 115, 0.895));
+  height: 90%;
+  width: 100vw;
+}
+.font-center{
+  text-align: center;
+}
+
+.display-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+.bg-blue{
+  background-color: var(--blue-color);
+}
+
+.bold{
+  font-size:xx-large;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:100%;
+  font-weight:500;
+}
+
+.width-10{
+  width: 10%;
+}
+
+.heigth-100per{
+  height: 100%;
+}
+
+.login-block{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+/* .btn-default{
+  border: none;
+  outline:; 
+} */
+
+.bg-green{
+  background-color: rgba(0, 0, 255, 0.082);
+}
+
+.font-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

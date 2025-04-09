@@ -1,0 +1,60 @@
+#signupBox {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 300px;
+    margin: 2rem auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #signupBox label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  #signupBox input {
+    font-size: 1rem;
+    padding: 0.7rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submitBtn {
+    padding: 0.8rem;
+    font-size: 1rem;
+    background-color: #28a745;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submitBtn:hover {
+    background-color: #1e7e34;
+  }
+  
+  .linkText {
+    font-size: 0.9rem;
+    text-align: center;
+    color: white;
+  }
+  
+  .linkText a {
+    color: #ffd700;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .linkText a:hover {
+    text-decoration: underline;
+  }
+ 
+  .pointer{
+    cursor: pointer;
+  }
