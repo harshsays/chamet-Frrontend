@@ -21,9 +21,7 @@ class Signup extends Component {
   }
 
   signUpFetchApi=async(e)=>{
-    console.log("hello")
     e.preventDefault();
-    console.log("clicked")
     try{
       const answer=await fetch("https://mytukka.onrender.com/api/user/signup",{
         method:"POST",
@@ -35,11 +33,10 @@ class Signup extends Component {
           email: this.state.email,
           password: this.state.password
         }),
-      })
-      console.log(answer)
-      console.log(answer.status)
+      }
+    )
+   
       const data=await answer.json();
-      console.log(data.message)
       this.setState({
         message:data.message
       })

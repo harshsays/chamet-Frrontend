@@ -28,7 +28,6 @@ class Login extends Component {
         headers: {
           "Content-Type": "application/json",
         },
-        credentials: "include", 
         body: JSON.stringify({
           email: this.state.email,
           password: this.state.password,
@@ -36,7 +35,6 @@ class Login extends Component {
       });
       
       const data = await answer.json();
-      console.log(data.message);
       this.setState({
         message: data.message,
       });
