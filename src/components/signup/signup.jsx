@@ -37,6 +37,7 @@ class Signup extends Component {
         }),
       })
       const data=await answer.json();
+      console.log(data.message)
       this.setState({
         message:data.message
       })
