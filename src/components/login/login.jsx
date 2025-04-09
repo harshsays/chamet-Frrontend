@@ -34,7 +34,9 @@ class Login extends Component {
           password: this.state.password,
         })
       });
+      
       const data = await answer.json();
+      console.log(data.message);
       this.setState({
         message: data.message,
       });
