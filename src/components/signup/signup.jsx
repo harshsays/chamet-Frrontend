@@ -36,6 +36,8 @@ class Signup extends Component {
           password: this.state.password
         }),
       })
+      console.log(answer)
+      console.log(answer.status)
       const data=await answer.json();
       console.log(data.message)
       this.setState({
