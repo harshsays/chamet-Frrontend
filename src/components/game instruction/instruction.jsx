@@ -1,5 +1,5 @@
 import { Component } from "react";
-import styles from "./Instruction.module.css";
+import styles from "./instruction.module.css";
 
 class Instruction extends Component {
   render() {
