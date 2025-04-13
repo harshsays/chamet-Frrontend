@@ -21,7 +21,7 @@ class Game extends Component{
             {!this.state.instruction?
             <div>
                 <h1>WELCOME 🤣</h1>
-                <h1><b>BEFORE MOVING AHEAD TO THE GAME</b> Please Read the <a className={styles.underline} onClick={this.chngeToInstruction}  >instructions</a> carefully</h1>
+                <h1>BEFORE MOVING AHEAD TO THE GAME Please Read the <a className={styles.underline} onClick={this.chngeToInstruction}  >instructions</a> carefully</h1>
             </div>
             :<Instruction />
             }
