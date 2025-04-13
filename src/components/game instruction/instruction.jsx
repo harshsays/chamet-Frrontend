@@ -1,7 +1,21 @@
 import { Component } from "react";
 import styles from "./instruction.module.css";
+import { ActualGame } from "../actualGame/actualGame";
 
 class Instruction extends Component {
+
+  constructor(){
+    super();
+    this.state={
+      start:false
+    }
+  }
+
+  chngeStart=()=>{
+    this.setState({
+      start:!this.state.start
+    })
+  }
   render() {
     return (
       <div className={styles.container}>
@@ -26,7 +40,7 @@ class Instruction extends Component {
           </li>
           <li>Select your numbers or shortcuts and hit play!</li>
         </ul>
-        <button className={`${styles.btn} cursor`}><h4>START</h4></button>
+        <button onClick={this.chngeStart} className={`${styles.btn} cursor`}><h4>START</h4></button>
       </div>
     );
   }
