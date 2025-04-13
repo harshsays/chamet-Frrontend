@@ -9,7 +9,7 @@ class ActualGame extends Component {
   }
 
   componentDidMount() {
-    const eventSource = new EventSource("http://localhost:5000/api/game/");
+    const eventSource = new EventSource("https://mytukka.onrender.com/api/game/");
 
     eventSource.onmessage = (event) => {
       console.log("Received:", event.data);
