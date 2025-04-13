@@ -26,7 +26,7 @@ class Instruction extends Component {
           </li>
           <li>Select your numbers or shortcuts and hit play!</li>
         </ul>
-        <button className={styles.btn}><h4>START</h4></button>
+        <button className={`${styles.btn} cursor`}><h4>START</h4></button>
       </div>
     );
   }

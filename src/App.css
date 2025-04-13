@@ -16,6 +16,9 @@
   width: 100vw;
 }
 
+.cursor{
+  cursor: grab;
+}
 #header{
   background: linear-gradient(to right,rgba(255, 0, 0, 0.58),rgba(0, 0, 255, 0.712));
   height: 10%;

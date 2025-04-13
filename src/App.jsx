@@ -19,14 +19,16 @@ class App extends Component{
       login:!this.state.login
     })
   }
-
+// git add .
+// git commit -m "your message"
+// git push origin main
 
   render(){
     return (
       <>
       <div className='App-container'>
       <header id="header" className='display-flex'>
-        <div className="font-center , width-10 heigth-50per font-center">MY-TUKKA</div> 
+        <div className="font-center , width-10 heigth-50per font-center">CLICK-27</div> 
         {!this.state.login?<button className="font-center , bold , width-10 bg-green heigth-100per btn-default" onClick={this.chngeLogin}>LOGIN</button>:null}  
       </header>
       <main id='body' className='font-center'>

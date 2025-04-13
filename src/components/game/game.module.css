@@ -1,0 +1,17 @@
+.fontlarge{
+    font-size: xx-large;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.green{
+    color: green;
+}
+@media (max-width:500px) {
+    .fontlarge{
+        font-size:medium
+    }
+}
+
