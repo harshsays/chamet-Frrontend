@@ -8,10 +8,11 @@ class ActualGame extends Component {
     };
   }
 
-  componentDidMount() {
+  componentDidMount=()=> {
     const eventSource = new EventSource("https://mytukka.onrender.com/api/game/");
 
     eventSource.onmessage = (event) => {
+      console.log(event);
       console.log("Received:", event.data);
       this.setState({ number: event.data });
     };
