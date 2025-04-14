@@ -26,7 +26,7 @@ class ActualGame extends Component {
 
   render() {
     return (
-      <h1>{this.state.number === null  ? "Waiting for number...": this.state.number === 31?  "will start soon" :this.state.number  }</h1>
+      <h1>{this.state.number === null  ? "Waiting for number...": this.state.number > 30 ?  "will start soon" : this.state.number  }</h1>
     );
   }
 }
